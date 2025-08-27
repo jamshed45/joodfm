@@ -1,0 +1,111 @@
+{
+
+  "welcome": "Welcome to Jood FM",
+  "explore": "Explore Solutions",
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "career": "Career",
+  "partners": "Partners & Projects",
+  "contactUs": "Contact",
+
+  "ourPhilosophy": "Our Philosophy",
+  "philosophyIntro": "Successful outcomes should be achieved through a mutual understanding partnership...",
+  "philosophyQuote": "Along the way, we have enjoyed the trust, respect and privilege of serving institutional clients around the kingdom",
+  "deepUnderstanding": "Deep Understanding",
+  "deepUnderstandingDesc": "Understanding our clients requirements then create solutions to be aligned with their objectives actual needs.",
+  "partnership": "Partnership",
+  "partnershipDesc": "To build an enduring partnership with our clients, based on mutual respect and a shared understanding of clients exact needs",
+  "accountManager": "Account Manager",
+  "accountManagerDesc": "Single Point Of Contact & Escalation Process",
+  "emergencyContact": "Emergency Contact",
+  "emergencyContactDesc": "24/7 service",
+
+  "softServices": "Soft Services",
+  "mainTitle": "Environmental & Soft Services",
+  "paintingTitle": "Painting",
+  "paintingDesc": "Successful outcomes should be achieved through a mutual understanding partnership with each client in order to strongly",
+
+
+
+  "contactTitle": "Contact With Us!",
+  "address": "Jood Facility Management 7629 Ibn Murshid, Ar Rawdah, Riyadh,\nKingdom of Saudi Arabia",
+  "call": "Call Us",
+  "mail": "Mail Us",
+  "quickLinks": "Quick Links",
+  "home": "Home",
+  "aboutUs": "About Us",
+  "services": "Services",
+  "contactUs": "Contact Us",
+  "rights": "All Rights Reserved.",
+
+
+  "technicalServices": "Technical Services",
+  "omTechnicalServices": "O&M Technical Services",
+  "lightingElectricity": "Lighting & Electricity",
+  "lightingElectricityDesc": "Successful outcomes should be achieved through a mutual understanding partnership with each client in order to strongly support & develop their key operations and long term objectives.",
+  "airConditioning": "Air Conditioning (HVAC)",
+  "airConditioningDesc": "Successful outcomes should be achieved through a mutual understanding partnership with each client in order to strongly support & develop their key operations and long term objectives.",
+  "fireSecuritySystems": "Fire and Security Systems (CCTV)",
+  "fireSecuritySystemsDesc": "Successful outcomes should be achieved through a mutual understanding partnership with each client in order to strongly support & develop their key operations and long term objectives.",
+
+    "solutionsUnit": "Solutions Unit",
+  "solutionsUnitIntro": "Jood® Solutions Unit (JSU) provides tailored solutions for our clients as we act as a strategic partner and cover all aspects of facilities management; from basic requirements to implementing and organizing total facilities management packages. We help our partners better serve their needs, close operational gaps, and improve income stability and growth.",
+  
+  "connectiveMaintenance": "Connective Maintenance",
+  "energyManagement": "Energy Management",
+  "predictiveMaintenance": "Predictive Maintenance",
+  "evaluatingAlternativeSolutions": "Evaluating Alternative Solutions",
+  "emergencyMaintenance": "Emergency Maintenance",
+  "plannedMaintenance": "Planned Maintenance",
+  "serviceDesc": "Successful outcomes should be achieved through a mutual understanding.",
+  
+  "perYear": "/Year",
+  "keepFullFaith": "Keep Full Faith",
+  "perAddress": "/Address",
+  "consultingBranch": "Consulting Branch",
+  "perConsultant": "/Consultant",
+  "professionalDedicated": "Professional & Dedicated",
+  "perClients": "/Clients",
+  "happyTrustCustomers": "Happy and Trust Customers",
+  
+  "solutionsImageAlt": "Meeting",
+  "trustedManagement": "Trusted Management Company For Business & Government",
+
+
+    "hero1": {
+    "title": "Welcome to Our Platform",
+    "description": "We provide top-quality services to help your business grow.",
+    "button": "Get Started"
+  },
+  "hero2": {
+    "title": "Your Success, Our Mission",
+    "description": "Partner with us for innovative and reliable solutions.",
+    "button": "Learn More"
+  },
+
+    "contact": {
+    "bannerTitle": "Contact Us",
+    "bannerSubtitle": "Learn more about our mission and team",
+    "heading": "Contact Us",
+    "subheading": "We'd love to hear from you. Reach out to us using the form or the info below.",
+    "address": "Address",
+    "addressDetail": "7629 Ibn Murshid, Ar Rawdah, Riyadh, Kingdom of Saudi Arabia",
+    "addressLink": "See Map",
+    "email": "Email",
+    "emailDetail": "ibthemes21@gmail.com",
+    "emailLink": "Say Hello",
+    "phone": "Phone",
+    "phoneDetail": "+966 920009622",
+    "phoneLink": "Call now",
+    "formTitle": "Send us a message",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formNamePlaceholder": "Your Name",
+    "formEmailPlaceholder": "Your Email",
+    "formMessagePlaceholder": "Your message...",
+    "formSubmit": "Send Message"
+  }
+
+}

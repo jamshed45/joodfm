@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/* ✅ Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ✅ Custom Theme (Optional, if not using tailwind.config.js) */
+@theme {
+  --color-primary: #6c2b68;
+  --color-secondary: #495d8a;
+  --color-accent: #42508a;
+  --color-lightgray: #5f5f5f;
+  --color-neutral: #e6e6e6;
+  --color-bglight: #f7f7f7;
+  --color-success: #34d399;
+  --color-danger: #ef4444;
+  --color-purple: #70386d;
+
+  --font-size-jd-main-nav: 1rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    @apply text-[#616161] bg-[#F8F8F8];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif;
+    @apply text-3xl font-bold;
+  }
+
+  a {
+    @apply hover:align-middle transition;
+  }
+
+  button {
+    @apply font-medium focus:outline-none;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-amber-50 text-white py-2 px-6 rounded-xl hover:bg-amber-100 transition;
+  }
+
+  .btn-outline {
+    @apply border border-amber-100 text-3xl py-2 px-6 rounded-xl hover:bg-amber-100 hover:text-white transition;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-3xl mb-6;
+  }
+
+  .section-subtitle {
+    @apply text-sm font-semibold text-white bg-amber-100 px-6 py-2 rounded-xl inline-block mb-6;
+  }
+
+  .text-muted {
+    @apply text-amber-50;
+  }
+
+  .shadow-card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .shadow-soft {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@layer utilities {
+  .jd-header-container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .jd-sub-header-container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .jd-main-container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .text-jd-main-nav a {
+    @apply text-[1.2rem];
+  }
+
+  .pre-heading-tag {
+    @apply inline-block bg-secondary text-white text-[16px] font-semibold px-10 py-2 rounded-xl mb-6;
+  }
+
+  .big-heading-1 {
+    @apply text-primary text-3xl md:text-4xl font-bold mb-6;
+  }
+    .big-heading-2 {
+    @apply text-primary text-2xl md:text-3xl font-bold mb-6;
+  }
+
+  .small-heading-1 {
+    @apply text-primary text-[1.25rem] font-bold mb-1;
+  }
+  .small-heading-2 {
+    @apply text-primary text-[.95rem] font-bold mb-1;
+  }
+  .right-arrow {
+    @apply text-primary text-xl mt-1 shrink-0  font-bold;
+  }
+
+  .footer {
+    @apply bg-purple text-[#EFC0EC] pt-10 pb-6;
+  }
+
+  .footer-heading {
+    @apply font-bold text-[1.30rem] text-white mb-2;
+  }
+
+  .footer-nav-link {
+    @apply relative inline-block text-[#c397c0] transition-colors duration-300;
+  }
+
+  .footer-nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #EFC0EC;
+    transition: width 0.3s ease;
+  }
+
+  .footer-nav-link:hover {
+
+    @apply relative inline-block text-[#9a6b97]
+  }
+
+  .footer-nav-link:hover::after {
+    width: 100%;
+  }
+
+}
